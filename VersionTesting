@@ -1,3 +1,5 @@
+wait(1)
+
 if getgenv().ZeScriptLoaded then
     warn("ZeScript is already running! Please destroy the existing instance first.")
     return
